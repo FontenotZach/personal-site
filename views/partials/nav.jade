@@ -1,0 +1,32 @@
+header
+  div.row.navbar.navbar-expand-lg.navbar-light.bg-light
+    div.col-md-2.ml-3
+      a.m-1.p-1.navbar-brand(href='#') Fontenotza
+      button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+    div.col-md-10
+      div.row
+        #navbarSupportedContent.collapse.navbar-collapse.justify-content-end
+          div.col-md-6
+            ul.navbar-nav.mr-auto
+              li.nav-item.active.m-1.p-1
+                a.nav-link(href='#') Home
+                  span.sr-only (current)
+              li.nav-item.m-1.p-1
+                a.nav-link(href='#') Link
+              li.nav-item.dropdown.m-1.p-1
+                a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                  | Dropdown
+                .dropdown-menu(aria-labelledby='navbarDropdown')
+                  a.dropdown-item(href='#') Action
+                  a.dropdown-item(href='#') Another action
+                  .dropdown-divider
+                  a.dropdown-item(href='#') Something else here
+              li.nav-item.m-1.p-1
+                a.nav-link.disabled(href='#') Disabled
+          div.col-md-5
+            ul.navbar-nav.mr-auto.float-right
+              li.nav-item.m-1.p-1
+                div.btn-group
+                  button.btn.btn-lg.btn-outline-primary sign in
+                  button.btn.btn-lg.btn-outline-secondary sign up

@@ -1,0 +1,30 @@
+/* body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: rgba(80, 80, 80, 1);
+} */
+
+a {
+  color: "#00b7ff"
+}
+
+#intro {
+  background-image: url("/assets/images/blueridge.jpg");
+  background-size: cover;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #intro {
+   margin-top: -58.59px;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
